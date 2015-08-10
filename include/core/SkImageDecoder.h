@@ -458,8 +458,6 @@ protected:
     /*  Helper for subclasses. Call this to allocate the pixel memory given the bitmap's info.
         Returns true on success. This method handles checking for an optional Allocator.
     */
-
-public:
     bool allocPixelRef(SkBitmap*, SkColorTable*) const;
 
     /**
